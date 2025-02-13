@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    
+
+}
+
+
+/*MENU*/
+.titulo1 {
+    font-size: 70px;
+    margin-top: -15px;
+    margin-left: 20px;
+
+}
+
+.subtitulo1 {
+    font-size: 24px;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+.Menu1 {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: fixed;
+    left: 445px;
+    bottom: 665px;
+}
+
+
+
+.Menu2 {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: fixed;
+    left: 570px;
+    bottom: 665px;
+    
+}
+
+.Menu3 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    left: 765px;
+    bottom: 665px;
+
+}
+.Menu4 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    left: 985px;
+    bottom: 665px;
+
+}
+.Menu5 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    left: 1200px;
+    bottom: 665px;
+
+}
+
+.Menu6 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    left: 1360px;
+    bottom: 665px;
+
+}
+.Menu1:hover {
+    transform: scale(1.1);
+    color: #3824c9;
+    text-shadow: 2px 2px 10px orangered;
+    transition: transform 0.3s ease-in-out;
+
+}
+.Menu2:hover {
+    transform: scale(1.1);
+    color: #3824c9;
+    text-shadow: 2px 2px 10px orangered;
+    transition: transform 0.3s ease-in-out;
+
+}
+.Menu3:hover {
+    transform: scale(1.1);
+    color: #120a51;
+    color: #3824c9;
+    text-shadow: 2px 2px 10px orangered;
+    transition: transform 0.3s ease-in-out;
+}
+.Menu4:hover {
+    transform: scale(1.1);
+    color: #3824c9;
+    text-shadow: 2px 2px 10px orangered;
+    transition: transform 0.3s ease-in-out;
+
+}
+.Menu5:hover {
+    transform: scale(1.1);
+    color: #3824c9;
+    text-shadow: 2px 2px 10px orangered;
+    transition: transform 0.3s ease-in-out;
+
+}
+.Menu6:hover {
+    transform: scale(1.1);
+    color: #3824c9;
+    text-shadow: 2px 2px 10px orangered;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.Cabecalho {
+    z-index: 2;
+    position: fixed;
+    background-color: black;
+    height: 100px;
+    width: 1600px;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 2px 2px black;
+
+}
+
+/*MENU*/
+
+/*INICIO*/
+
+.InicioICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 100px;
+    position: relative;
+    top: 160px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.CodIMG {
+    position: absolute;
+    top: -150px;
+    left: 0px;
+    height: 1010px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+}
+
+.FraseMotivacional {
+    position: relative;
+    top: 200px;
+    left: 260px;
+    text-align: center;
+    width: 1000px;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+    
+    
+}
+
+
+/*INICIO*/
+
+/*SOBRE MIM*/
+
+.MimICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 60px;
+    position: relative;
+    top: 825px;
+    margin-left: 370px;
+}
+
+.fa-solid fa-user i {
+    color: #120a51;
+    height: 200px;
+
+}
+
+.sobremim {
+    position: relative;
+    top: 750px;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.IMG1 {
+    position: relative;
+    left: 80px;
+    top: 780px;
+    height: 600px;
+    border-radius: 25px;
+    
+}
+
+.PrimeiroParagrafo {
+    position: relative;
+    top: 200px;
+    left: 750px;
+    width: 600px;
+    font-size: 35px;
+    text-align:center ;
+
+}
+
+/*SOBRE MIM*/
+
+
+/*EXPERIENCIAS*/
+.ExpICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 60px;
+    position: relative;
+    top: 530px;
+    margin-left: 390px;
+
+}
+
+.experiencias1 {
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 450px;
+
+}
+
+.c {
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 5px #120a51;
+    position: relative;
+    top: 550px;
+    border: 2px solid blue;
+    background: transparent;
+    font-size: 10px;
+}
+
+.HTMLICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 60px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.LinguaICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 50px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+.JvsICON {
+    color: #120a51;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px purple;
+    text-align: center;
+    margin-top: 2px;
+}
+.PhyICON {
+    color: #120a51;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px purple;
+    text-align: center;
+    margin-top: 2px;  
+}
+
+a#c1 {
+    position: absolute;
+    top: 380px;
+}
+
+a#c2 {
+    position: absolute;
+    top: 380px;
+
+}
+
+
+.c p {
+    margin-left: 2px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.c a {
+    color: #3824c9;
+    border-color: white;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    margin-left: 27px;
+    text-decoration: none;
+}
+
+.c a:hover {
+    transform: scale(1.1);
+    color: white;
+    text-decoration: underline;
+
+}
+
+.c h1 {
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 2px #120a51;
+}
+
+
+.c:hover {
+    transform: scale(1.1);
+    text-shadow: #120a51;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+.Exp {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+/*EM CONSTRUÇÃO...
+------------------*/
+/*EXPERIENCIAS*/
+
+/*CERTIFICADOS*/
+
+.CertICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 60px;
+    position: relative;
+    top: 680px;
+    margin-left: 430px;
+}
+
+.Cert {
+    position: relative;
+    top: 600px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+ul#certificados-1 li {
+    list-style: none;
+    float: left;
+    border: 2px solid #120a51;
+    margin: 13px;
+    border-radius: 10px;
+    position: relative;
+    top: 700px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 3px 3px 3px #3824c9;
+
+}
+
+ul#certificados-1 li span {
+    font-size: 25px;
+    color: #3824c9;
+    text-align: center;
+    margin-left: 30px;
+    line-height: 350px;
+    opacity: 0;
+}
+
+ul#certificados-1 li:hover {
+    transform: scale(1.2);
+    transition: box-shadow 0.4s ,transform 0.4s ease-in-out;
+    z-index: 1;
+    box-shadow: 10px 10px 20px #3824c9;
+}
+
+ul#certificados-1 li:hover span {
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+ul#certificados-1 li#ce1 {
+    background: url(../IMG/certificado_Algortmos.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+ul#certificados-1 li#ce2 {
+    background: url(../IMG/certificado_ingles.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+ul#certificados-1 li#ce3 {
+    background: url(../IMG/Certificado_info.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+ul#certificados-1 li#ce4 {
+    background: url(../IMG/certificado_TI.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+
+/*CERTIFICADOS*/
+
+/*PROJETOS*/
+
+.ProjetosICON {
+    text-shadow: 2px 2px 4px #4f064a;
+    color: #120a51;
+    font-size: 60px;
+    position: relative;
+    top: 1280px;
+    margin-left: 460px;
+
+}
+.projetos1 {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 1200px;
+    justify-content: center;
+
+}
+
+h2#projetosproducao {
+    position: absolute;
+    top: 4500px;
+    font-size: 100pt;
+    margin-left: 300px;
+
+}
+
+h2#projetosproducao:hover {
+    transform: scale(1.1);
+    color: #120a51;
+    text-shadow: 2px 2px 40px white;
+    transition: transform 0.4s ease-in-out;
+}
+
+/*PROJETOS*/
+
+
+/*CONTATO*/
+
+.ContatoICON {
+    font-size: 60px;
+    text-shadow: 2px 2px 4px purple;
+    color: #120a51;
+    position: relative;
+    top: 1880px;
+    margin-left: 430px;
+
+}
+
+
+.contato1 {
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 1800px;
+    color: white;
+
+}
+
+.Texto1 {
+    position: relative;
+    top: 1750px;
+    right: -275px;
+    font-size: 30px;
+    color: white;
+    
+
+}
+
+.Texto2 {
+    position: relative;
+    top: 1800px;
+    right: 0px;
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #120a51;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Texto2:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #3824c9;
+    border-color: #3824c9;
+    transition: box-shadow 0.4s, transform 0.4s ease-in-out;
+    
+}
+
+.Email1 {
+    position: relative;
+    top: 1750px;
+    right: -532px;
+    font-size: 30px;
+    color: white;
+}
+
+.Email2 {
+    position: relative;
+    top: 1800px;
+    right: -310px;
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #120a51 ;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.Email2:hover {
+    color: #3824c9;
+    box-shadow: 5px 5px 10px #3824c9;
+    transform: scale(1.1);
+    transition: box-shadow 0.4s, transform 0.4s ease-in-out;
+
+}
+
+.Caixadetexto1 {
+    position: relative;
+    top: 1930px;
+    right: 290px;
+    font-size: 20px;
+    color: white;
+}
+
+.Caixadetexto2 {
+    text-align: start ;
+    position: relative;
+    top: 2050px;
+    background: transparent;
+    border: 2px solid #120a51;
+    border-radius: 20px;
+    right: 550px;
+    height: 200px;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.Caixadetexto2:hover {
+    transform: scale(1.1);
+    color: #3824c9;
+    box-shadow: 5px 5px 10px #3824c9;
+    transition: box-shadow 0.4s, transform 0.4s ease-in-out;
+
+}
+
+.botao {
+    position: relative;
+    top: 2120px;
+    left: 650px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid #120a51;
+    background-color: transparent;
+    font-size: 30px;
+    color: #120a51;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    background: #120a51;
+    color: white;
+    box-shadow: 5px 5px 10px #3824c9;
+    transition: box-shadow 0.4s,transform 0.4s ease-in-out;
+}
+
+/*CONTATO*/
+
+
+/*FOOTER*/
+.rodape {
+    text-align: center;
+    margin-top: 2200px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+    padding-bottom: 10px;
+    background-size: cover;
+    height: 150px;
+    background: linear-gradient(#200017, #4f064a, #7d0d7d, #bc67bc);
+}   
+
+.MeuLinkedin {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.MeuLinkedin:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+}
+
+.MeuInstagram {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 20px;
+
+}
+
+.MeuInstagram:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*FOOTER*/
