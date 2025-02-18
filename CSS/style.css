@@ -419,26 +419,26 @@ ul#certificados-1 li:hover span {
 
 
 ul#certificados-1 li#ce1 {
-    background: url(./IMG/certificado_Algortmos.jpg) no-repeat;
+    background: url(../IMG/certificado_Algortmos.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 
 }
 ul#certificados-1 li#ce2 {
-    background: url(./IMG/certificado_ingles.jpg) no-repeat;
+    background: url(../IMG/certificado_ingles.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     text-align: center;
 
 }
 ul#certificados-1 li#ce3 {
-    background: url(./IMG/Certificado_info.jpg) no-repeat;
+    background: url(../IMG/Certificado_info.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 
 }
 ul#certificados-1 li#ce4 {
-    background: url(./IMG/certificado_TI.jpg) no-repeat;
+    background: url(../IMG/certificado_TI.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 
@@ -634,7 +634,7 @@ h2#projetosproducao:hover {
     padding-bottom: 10px;
     background-size: cover;
     height: 150px;
-    background: linear-gradient(#200017, #4f064a, #7d0d7d, #bc67bc);
+    background: linear-gradient(45deg, #00004a, #06028b, #0c04b0, #2811f1, #6942ea);
 }   
 
 .MeuLinkedin {
