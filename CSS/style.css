@@ -432,7 +432,7 @@ ul#certificados-1 li#ce2 {
 
 }
 ul#certificados-1 li#ce3 {
-    background: url./(IMG/Certificado_info.jpg) no-repeat;
+    background: url(./IMG/Certificado_info.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 
