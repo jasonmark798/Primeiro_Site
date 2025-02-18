@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>Meu Portfolio</title>
 
 </head>
@@ -34,7 +34,7 @@
         <div class="InicioICON">
             <i class="fa-solid fa-code"></i>
         </div>
-        <img  id="Inicio" src="./IMG/Cod2.jpg" alt="codIMG" class="CodIMG">
+        <img  id="Inicio" src="../IMG/Cod2.jpg" alt="codIMG" class="CodIMG">
         <h2 class="FraseMotivacional">"Não é a linguagem de programação que define o programador, mas sim sua lógica".</h2>
     </group>
 
@@ -43,7 +43,7 @@
             <i class="fa-solid fa-user"></i>
         </div>
         <h1 id="SobreMim" class="sobremim">Um pouco sobre mim...</h1>
-        <img class="IMG1" src="./IMG/MinhaImagem.jpg" alt="MinhaImagem">
+        <img class="IMG1" src="../IMG/MinhaImagem.jpg" alt="MinhaImagem">
         <p class="PrimeiroParagrafo">
             Olá prazer em conhecer, me chamo Cauã Ailton, tenho 17 anos atualmente, gosto muito de videogames, 
             livros e filmes. E recentemente comecei a estudar e programar HTML, CSS, JavaScript e até Phyton!
@@ -114,10 +114,10 @@
         <h1 class="Cert" id="Certificados">Meus Certificados</h1>
         
         <ul id="certificados-1">
-            <li id="ce1"><span>Certificado de Algoritmos </span></li>
-            <li id="ce2"><span>Certificado de Inglês </span></li>
-            <li id="ce3"><span>Certificado de Informática </span></li>
-            <li id="ce4"><span>Certificado basico de TI </span></li>
+            <a href="Certificados/meusCertificados.html" target="_blank"><li id="ce1"><span>Certificado de Algoritmos </span></li></a> 
+            <a href="Certificados/meusCertificados.html" target="_blank"><li id="ce2"><span>Certificado de Inglês </span></li></a>
+            <a href="Certificados/meusCertificados.html" target="_blank"><li id="ce3"><span>Certificado de Informática </span></li></a>
+            <a href="Certificados/meusCertificados.html" target="_blank"><li id="ce4"><span>Certificado basico de TI </span></li></a>
         </ul>
             
     
@@ -130,19 +130,19 @@
         <h2 id="projetosproducao">Em Produção!</h2>
     </group>
 
-    <group>
+    <form method="post" id="CContato" action="mailto:caua.ailton798@gmail.com">
         <div class="ContatoICON">
             <i class="fa-solid fa-phone"></i>
         </div>
-        <h1 class="contato1" id="contato" >Entre em contato!</h1>
+        <h1 class="contato1" id="contato">Entre em contato!</h1>
         <label for="text" class="Texto1">Qual o seu nome?</label>
-            <input type="text" class="Texto2">
+            <input type="text" class="Texto2" placeholder="Digite seu nome:">
         <label for="email" class="Email1">Seu email</label>
-            <input type="email" class="Email2">
+            <input type="email" class="Email2" placeholder="Digite seu email:">
         <label for="texto" class="Caixadetexto1">Escreva algo!</label>
-            <input type="text" class="Caixadetexto2">
+            <input type="text" class="Caixadetexto2" placeholder="Converse comigo!">
         <button class="botao">Enviar</button>
-    </group>
+    </form>
 
     <footer class="rodape">
         <h1 class="final">Foi um prazer, volte sempre!</h1>
